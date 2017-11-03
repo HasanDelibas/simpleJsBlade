@@ -22,8 +22,6 @@ class bladeComplier{
         
 
         $newBlade = preg_replace($from,$to,$blade);
-
-        //$newBlade = str_replace(["&lt;","&gt;"],["<",">"], $newBlade);
         $newBlade = "$name = function(data){\nvar retVal =`".$newBlade."`;\nreturn retVal;}";
         print_r(str_replace(["<",">"],["&lt;","&gt;"], $newBlade));
         file_put_contents( $outLocation , $newBlade );
