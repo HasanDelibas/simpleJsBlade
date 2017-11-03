@@ -1,7 +1,7 @@
 # simpleJsBlade
 Laravel blade for JS
 
-# Blade Syntax data
+# Blade Syntax: data
     data
 data is parent data values. You can use with data echo any variable.
 ## Example
