@@ -76,6 +76,16 @@ Example
       <li> 2 </li>
     </ul>
     
-    
+# Blade Syntax : @script
+
+This is when you use in blade java script code. You can use this.
+Example:
+
+    {{ @script }}
+        function helloSay(){
+            alert('hello');
+        };
+    {{ @scriptend }}
+    <div onclick=helloSay> Click me. And see hello. </div>
     
 I hope heplfull....
